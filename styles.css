@@ -8,14 +8,24 @@ body {
     height: 560px;
     width: 560px;
     margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
 }
 
 #container div {
     display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 button {
     margin-top: 10px;
     height: 30px;
+}
+
+.square {
+    height: 30px;
+    border: 2px solid orange;
+    flex: 1;
 }
 

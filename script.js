@@ -10,13 +10,10 @@ function createRowDivs(numberOfSquaresPerSide){
 }
 
 function createSquare(square){
-    square.style.border = "2px solid orange";
-    square.style.height = "30px";
-    square.style.width = "30px";
+    square.classList.toggle("square");
     square.addEventListener("mouseover", () => {
         square.style.backgroundColor = "green";
     });
-
     return square;
 }
 
